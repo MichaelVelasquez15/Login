@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  color: none;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.correo {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bdbdbd;
+  padding: 5px;
+  color: grey;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.correo:focus-within {
+  border: solid 2px rgb(14, 129, 223);
+}
+
+.correo > input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  color: grey;
+  border-radius: 8px;
+  border: 1px solid #bdbdbd;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.password:focus-within {
+  border: solid 2px rgb(14, 129, 223);
+}
+
+.password > input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.but1 {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #2f80ed;
+  color: white;
+}
+
+.p1 {
+  font-size: 17px;
+}
+.p3 {
+  font-size: 16px;
+}
+.p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #828282;
+}
+
+.logos2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
