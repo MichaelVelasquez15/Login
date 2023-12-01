@@ -21,32 +21,34 @@
   <h2>Login</h2>
 </div>
 
-<form action="./scripts/login.php" method="POST" class="">
-  <div class="">
+<form action="./scripts/log.php" method="POST" class="">
+  <div class="correo">
+  <label for=""><span class="material-symbols-outlined">mail</span></label>
     <input
       type="text"
-      name="username"
-      id="username"
+      name="correo"
+      id="correo"
       class=""
       placeholder="Email"
+      required
     />
-    <span class="material-symbols-outlined">mail</span>
+
   </div>
-  <div class="">
+  <div class="password">
+  <label for=""><span class="material-symbols-outlined">lock</span></label>
     <input
-    
       type="password"
       name="password"
       id="password"
       class=""
       placeholder="Password"
+      required
     />
-    <span class="material-symbols-outlined">lock</span>
   </div>
-  <button class="">Login</button>
+  <button class="but1">Login</button>
 </form>
 <div class="p2">
-  <p>or continue with these social profile</p>
+  <h4>or continue with these social profile</h4>
 </div>
 
 <div class="logos2">
@@ -56,8 +58,8 @@
   <img src="./assets/Gihub.svg" alt="">
 </div>
 
-<div>
-  <p>Don't have an account yet?</p>
+<div class="foot">
+  <h4>Don't have an account yet?</h4>
   <a href="">Register</a>
 </div>
 </div>

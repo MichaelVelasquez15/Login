@@ -11,10 +11,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Mulish:wght@200;400&family=Noto+Sans:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="nav2">
         <div class="logo1">
             <div><img src="./assets/devchallenges.svg" alt=""></div>
-            <div><p>cerrar sesion</p></div>
+            <div>
+            <ul>
+			<ol><span class="material-symbols-outlined">arrow_drop_down</span>
+				<ul>
+                    <div class="d1"><ol><span class="material-symbols-outlined">account_circle</span><h4>My Profie</h4></ol></div>
+					
+					<ol><div class="d1"><span class="material-symbols-outlined">group</span><h4>Group Chat</h4></div></ol>
+					<ol><span class="material-symbols-outlined">move_item</span><a href="./scripts/logout.php">Cerrrar Sesion</a></ol>
+				</ul>
+			</ol>
+		</ul>   
+            
+            </div>
         </div>
     </nav>
 

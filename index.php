@@ -26,15 +26,16 @@
 
       </div>
 
-      <form action="./scripts/login.php" method="POST" class="">
+      <form action="./scripts/register.php" method="POST" enctype="multipart/form-data">
         <div class="correo">
           <label for=""><span class="material-symbols-outlined">mail</span></label>
           <input
             type="text"
-            name="username"
-            id="username"
+            name="correo"
+            id="correo"
             class=""
             placeholder="Email"
+            required
           />
           
         </div>
@@ -46,6 +47,7 @@
             id="password"
             class=""
             placeholder="Password"
+            required
           />
           
         </div>
