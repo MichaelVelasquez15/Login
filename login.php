@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+if(isset($_SESSION['userData'])){
+  $user = $_SESSION['userData'];
+}else{
+header('location: ./info.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +28,7 @@
 </div>
 
 <div class="p1">
-  <h2>Login</h2>
+  <h2>Login </h2>
 </div>
 
 <form action="./scripts/log.php" method="POST" class="">
@@ -26,8 +36,8 @@
   <label for=""><span class="material-symbols-outlined">mail</span></label>
     <input
       type="text"
-      name="correo"
-      id="correo"
+      name="email"
+      id="email"
       class=""
       placeholder="Email"
       required
@@ -60,7 +70,7 @@
 
 <div class="foot">
   <h4>Don't have an account yet?</h4>
-  <a href="">Register</a>
+  <a href="index.php">Register</a>
 </div>
 </div>
 </body>

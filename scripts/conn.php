@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'auth';
+$dbname = 'login_db';
 $user ='root';
 $pass ='';
 

@@ -31,8 +31,8 @@
           <label for=""><span class="material-symbols-outlined">mail</span></label>
           <input
             type="text"
-            name="correo"
-            id="correo"
+            name="email"
+            id="email"
             class=""
             placeholder="Email"
             required
@@ -66,7 +66,7 @@
 
       <div class="foot">
         <h4>Already a member?</h4>
-        <a href="">Login</a>
+        <a href="login.php">Login</a>
       </div>
     </div>
   </body>

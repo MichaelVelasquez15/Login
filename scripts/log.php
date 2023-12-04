@@ -3,11 +3,11 @@
 require_once 'conn.php';
 
 if($_SERVER['REQUEST_METHOD']==='POST'){
-    $correo = $_POST['correo'];
+    $correo = $_POST['email'];
     $password = $_POST['password'];
 }
 
-$query = 'SELECT *FROM usuarios WHERE correo = ?';
+$query = 'SELECT *FROM usuarios WHERE email = ?';
 
 try {
     $stm = $pdo->prepare($query);

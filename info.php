@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+if(isset($_SESSION['userData'])){
+  $user = $_SESSION['userData'];
+}else{
+// header('location: ./info.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +48,7 @@
     <p>Basic info, like your name and photo</p>
     </div>
 
-<div class="card">
+<div class="card1">
 
 <form action="./scripts/login.php" method="POST" class="">
     <div>
@@ -66,11 +76,11 @@
     </div>
     <div>
         <h3>EMAIL</h3>
-        <p>email aqui</p>
+        <p><?=$user['email']?></p>
     </div>
     <div>
         <h3>PASSWORD</h3>
-        <p>contraseña aqui</p>
+        <p><?=$user['password']?></p>
     </div>
 </form>
 
